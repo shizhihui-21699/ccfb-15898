@@ -16,3 +16,12 @@ node_modules/
 __pycache__/
 .venv/
 venv/
+
+# Build output
+build*/
+*.o
+*.a
+compile_commands.json
+
+# Demo/CLI artefacts that may contain device keys (demo keys only, but keep clean)
+*.seed
